@@ -1,0 +1,41 @@
+.footer-container {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background-color: #0e0e2c;
+  overflow: hidden;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.rounded-border1 {
+  border-radius: 50%;
+  border: 40px solid rgb(47, 47, 71);
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  right: -4rem;
+  top: -4rem;
+}
+.rounded-border2 {
+  border-radius: 50%;
+  border: 50px solid rgb(47, 47, 71);
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  right: -7rem;
+  top: -7rem;
+}
+
+.footer-links-box {
+  color: white;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-link {
+  font-size: small;
+  margin-top: 10px;
+  cursor: pointer;
+}

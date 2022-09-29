@@ -1,0 +1,77 @@
+.doubt-container {
+  width: 100%;
+  min-height: 50vh;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.doubt-box {
+  width: 80%;
+  margin: auto;
+
+  height: 25rem;
+  border-radius: 50px;
+  background-color: rgba(255, 0, 157, 0.199);
+}
+
+.doubt-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 10px;
+}
+.doubt-content {
+  min-height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doubt-content div {
+  margin-left: 1rem;
+}
+.doubt-content img {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 30px;
+}
+
+.doubt-content img:nth-child(1) {
+  margin-left: -2rem;
+}
+.doubt-content img:last-child {
+  margin-right: -2rem;
+}
+
+@media (max-width: 1040px) {
+  .doubt-content img:last-child {
+    margin-right: -1rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .doubt-content img {
+    height: 10rem;
+    width: 10rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .doubt-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .doubt-box {
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+  }
+  .doubt-container {
+    height: 90vh;
+  }
+}

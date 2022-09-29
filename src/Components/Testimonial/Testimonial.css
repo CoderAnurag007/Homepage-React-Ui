@@ -1,0 +1,71 @@
+.testimonial-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.testimonial-container div:nth-child(2) {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.testimonial-container img {
+  width: 3rem;
+  height: 4rem;
+  border-radius: 30px;
+  border-bottom-left-radius: 0px;
+  position: absolute;
+  bottom: -7rem;
+  right: 1rem;
+}
+.testimonial-container .image {
+  position: relative;
+}
+.testimonial-container .image svg {
+  position: absolute;
+  z-index: -1;
+  top: -6rem;
+  left: 3rem;
+}
+
+.testimonial-container .image .textbox {
+  font-family: "Work Sans";
+  font-size: small;
+  font-weight: 500;
+  text-align: left;
+  position: absolute;
+  top: -3rem;
+  left: 3rem;
+  padding: 10px;
+  color: white;
+}
+
+@media (max-width: 675px) {
+  .testimonial-container img {
+    bottom: -9rem;
+  }
+  .testimonial-container .image .textbox {
+    left: 4rem;
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonial-container {
+    flex-direction: column;
+  }
+  .testimonial-container .image svg {
+    top: -20rem;
+  }
+  .testimonial-container .image .textbox {
+    top: -15rem;
+  }
+  .testimonial-container img {
+    bottom: 4rem;
+  }
+}

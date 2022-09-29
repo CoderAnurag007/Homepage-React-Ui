@@ -1,0 +1,242 @@
+.services-container {
+  width: 101%;
+  /* overflow-x: hidden; */
+  height: 100vh;
+  background-color: rgba(220, 20, 60, 0.037);
+}
+.services-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.services-chart {
+  width: 80%;
+  margin: auto;
+  z-index: 4;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.services-holder {
+  width: 1000px;
+  height: 100vh;
+  position: relative;
+}
+
+.services-center-img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+}
+
+.img-holder {
+  position: absolute;
+  width: 416px;
+  height: 416px;
+  display: flex;
+  overflow: hidden;
+  z-index: 4;
+  justify-content: center;
+  align-items: center;
+  top: 5rem;
+  background: url("../../Resources/gradient\ image.jpg");
+  border-radius: 50%;
+}
+.ui-ux {
+  /* position: absolute; */
+  margin: auto;
+  width: 3rem;
+}
+.ui-line {
+  width: 4px;
+  left: 31rem;
+  height: 4rem;
+  margin: auto;
+  border-left: 1px dashed black;
+  /* position: absolute; */
+  top: 1rem;
+}
+
+.sass {
+  position: absolute;
+  right: 15rem;
+  top: 5rem;
+}
+.sass-line {
+  width: 4px;
+  height: 9.2rem;
+  border-left: 1px dashed black;
+  position: absolute;
+  right: 22rem;
+  top: 1rem;
+  transform: rotate(90deg);
+}
+.ai {
+  position: absolute;
+  right: 5rem;
+  top: 15rem;
+}
+.ai-line {
+  width: 4px;
+  height: 10rem;
+  border-left: 1px dashed black;
+  position: absolute;
+  right: 13rem;
+  top: 10.5rem;
+  transform: rotate(90deg);
+}
+
+.blockchain {
+  position: absolute;
+  right: 0rem;
+  top: 25rem;
+}
+.blockchain-line {
+  width: 4px;
+  height: 15rem;
+  border-left: 1px dashed black;
+  position: absolute;
+  right: 12.5rem;
+  top: 18rem;
+  transform: rotate(90deg);
+}
+.cms {
+  position: absolute;
+  left: 15rem;
+  top: 5rem;
+}
+.cms-line {
+  width: 4px;
+  height: 9.2rem;
+  border-left: 1px dashed black;
+  position: absolute;
+  left: 22rem;
+  top: 1rem;
+  transform: rotate(90deg);
+}
+.websites {
+  position: absolute;
+  left: 3rem;
+  top: 15rem;
+}
+.websites-line {
+  width: 4px;
+  height: 10rem;
+  border-left: 1px dashed black;
+  position: absolute;
+  left: 13rem;
+  top: 10.5rem;
+  transform: rotate(90deg);
+}
+.mobile {
+  position: absolute;
+  left: -1rem;
+  top: 25rem;
+}
+.mobile-line {
+  width: 4px;
+  height: 15rem;
+  position: absolute;
+  border-left: 1px dashed black;
+  left: 12.5rem;
+  top: 18rem;
+  transform: rotate(90deg);
+}
+
+@media (max-width: 975px) {
+  .img-holder {
+    width: 320px;
+    height: 320px;
+  }
+
+  .services-center-img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .mobile {
+    top: 22rem;
+  }
+  .mobile-line {
+    top: 15rem;
+  }
+  .blockchain {
+    top: 22rem;
+  }
+  .blockchain-line {
+    top: 15rem;
+  }
+  .cms {
+    left: 10rem;
+  }
+  .cms-line {
+    left: 15rem;
+  }
+  .sass-line {
+    right: 15rem;
+  }
+  .sass {
+    right: 10rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .websites {
+    left: -2rem;
+  }
+  .websites-line {
+    left: 8rem;
+  }
+  .ai {
+    right: -2rem;
+  }
+  .ai-line {
+    right: 8rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .cms {
+    left: 5rem;
+  }
+  .cms-line {
+    left: 10rem;
+  }
+  .sass-line {
+    right: 10rem;
+  }
+  .sass {
+    right: 5rem;
+  }
+}
+
+@media (max-width: 495px) {
+  .img-holder {
+    width: 280px;
+    height: 290px;
+  }
+
+  .services-center-img {
+    width: 13rem;
+    height: 13rem;
+  }
+  .services-container {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .img-holder {
+    width: 270px;
+    height: 280px;
+  }
+
+  .services-center-img {
+    width: 12rem;
+    height: 12rem;
+  }
+}

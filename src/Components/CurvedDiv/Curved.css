@@ -1,0 +1,28 @@
+.curved-container {
+  width: 40rem;
+  height: 35rem;
+  border-radius: 0% 39% 39% 0% / 10% 83% 11% 10%;
+  background-image: url("../../Resources/gradient\ image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+@media (max-width: 940px) {
+  .curved-container {
+    width: 35rem;
+  }
+}
+@media (max-width: 835px) {
+  .curved-container {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .curved-container {
+    width: 100%;
+    border-radius: 0;
+  }
+}

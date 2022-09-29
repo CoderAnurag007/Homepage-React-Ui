@@ -1,0 +1,97 @@
+.tags-topic-container {
+  width: 50%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.topic-head {
+  border: 1.5px solid rgb(255, 0, 187);
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+  padding: 10px;
+  margin-top: 3rem;
+  border-radius: 3px;
+}
+.topic-circle {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(255, 0, 225);
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-top: -0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.416);
+}
+
+.topic-line {
+  height: 30rem;
+  width: 8px;
+  margin-top: -0.2rem;
+  background-color: rgb(255, 0, 225);
+  border-radius: 20px;
+  z-index: -1;
+}
+.topics {
+  position: absolute;
+  height: 100%;
+  width: 500px;
+}
+.topics-1 {
+  position: absolute;
+  top: 10rem;
+  width: 8rem;
+  left: 7.3rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.196);
+}
+
+.topics-2 {
+  position: absolute;
+  top: 15rem;
+  width: 8rem;
+  right: 7.3rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.196);
+}
+.topics-3 {
+  position: absolute;
+  top: 20rem;
+  width: 8rem;
+  left: 7.3rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.196);
+}
+.topics-4 {
+  position: absolute;
+  top: 25rem;
+  width: 8rem;
+  right: 7.3rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.196);
+}
+.topics-5 {
+  position: absolute;
+  top: 30rem;
+  width: 8rem;
+  left: 7.3rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.196);
+}

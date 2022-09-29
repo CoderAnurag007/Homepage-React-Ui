@@ -1,0 +1,106 @@
+.contact-container {
+  width: 90%;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  z-index: 3;
+}
+
+.contact-container .contact-left {
+  width: 50%;
+  height: 100%;
+}
+.contact-container .contact-left .contact-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.contact-left img {
+  width: 25rem;
+  height: 25rem;
+}
+.socials {
+  width: 30%;
+  margin-top: -1rem;
+}
+.social-icons {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contact-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact-form {
+  width: 90%;
+  height: 95%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  background: url("https://s3-alpha-sig.figma.com/img/ba81/0e67/4fa269b438c434a4ba4bc2364b10ceda?Expires=1665360000&Signature=MM6plYMAh6h1JoqESUw5H~gG7In5EToSORyThXInaYZsWcAfUdbEQVactE5cBJkejG~d7vN6Amx-kn4fJaMRuRU3hMDIVz2RaEWtpRIr5G-zu8C3Ho6sdAsyMf9wnvCCoXK0xqPE5dwQOn63a9-T9q7qiD8vqxTPtSmqI7bAAWlOJwfqrAE8FZstxuWIQXMxnfta7GQ2Tiirn~3TFKMxOeH1luE9E~GfhrxgKx-83uOLq~ZsEu35tzOVcNkLEvHLUo59Z~xl7K9IE0qe2sQHYsbT~teZ~QEIVpZq6EczVg-a1F5C0J-BwpW6gmWtXzHUklBB~ocFMIs3z1s86Kbimg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+}
+.contact-form input {
+  width: 80%;
+  border: none;
+  outline: none;
+  height: 2.5rem;
+  border-radius: 8px;
+}
+.contact-form textarea {
+  width: 80%;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  resize: none;
+  font-family: "Work Sans";
+}
+.contact-form button {
+  width: 7rem;
+
+  height: 2rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+@media (max-width: 1120px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-left img {
+    width: 20rem;
+    height: 20rem;
+    margin-left: -3rem;
+  }
+  .contact-form {
+    height: 30rem;
+    width: 25rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 670px) {
+  .contact-right {
+    width: 100%;
+    margin: auto;
+  }
+  .contact-head {
+    margin-left: -3rem;
+  }
+}

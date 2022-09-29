@@ -1,0 +1,72 @@
+.right-landing {
+  width: 500px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav .chat-bot .circle {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.811);
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 50%;
+  background: rgb(255, 23, 243);
+  background: linear-gradient(
+    125deg,
+    rgba(255, 23, 243, 1) 0%,
+    rgb(255, 29, 232) 69%
+  );
+}
+
+.nav .chat-bot {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav .chat-bot img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.circle-border:nth-of-type(1) {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 64px solid rgba(234, 24, 171, 0.094);
+  position: absolute;
+  right: -5rem;
+  top: -5rem;
+}
+
+.circle-border:nth-of-type(2) {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: 64px solid rgba(234, 24, 171, 0.094);
+  position: absolute;
+  right: -8rem;
+  top: -8rem;
+}
+
+.right-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.right-image img {
+  width: 27rem;
+  height: 25rem;
+}
